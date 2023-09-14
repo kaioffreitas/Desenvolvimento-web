@@ -1,0 +1,48 @@
+body{
+    background-color: #333;
+    color: rgb(0, 255, 255);
+    letter-spacing: 0.1rem;
+}
+header{
+    /*Largura*/width:100%;
+    /*altura*/
+    height: 50px;
+    background-color: aquamarine;
+    text-align: center;
+    /* alinhar-orizontal texto*/
+    color: violet;
+    padding-top: 6px; /*preenchimento*/
+    /*sombra do box */
+    box-shadow: 0 10px rgb(190, 243, 172); /* eixoX eixoY COR */
+}
+header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px rgb(0,0,0),
+                 0px -1px rgb(231, 220, 220);
+}
+
+article{
+    text-align: center;
+}   
+article h2 {
+    color: rgb(238, 233, 233);
+    background-color: blue,
+    -1px -1px 10px blue;
+}              
+article ul li{
+    list-style: nome;/*bolinha da lista*/
+    font-style:italic;
+}
+
+.cor_diferente{
+        color: yellow;
+        font-style: normal;
+}
+
+footer{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        border: 1px solid #000;/*Espessura, tipo, cor*/
+        padding-top: 30px;
+}
